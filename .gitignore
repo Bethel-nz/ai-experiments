@@ -1,0 +1,17 @@
+# Model weights and training output: published on Hugging Face, not in git
+*.gguf
+*.safetensors
+*.bin
+outputs/
+seequel_lora_model/
+seequel-1.5b-q4/
+
+# Notebook and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Files the notebooks write when run
+seo_analysis*.txt
+
+.DS_Store
